@@ -3,8 +3,9 @@ using MsbRpc.Generator.Attributes;
 
 namespace MsbRpcChatContract;
 
-[RpcContract]
+[RpcContract()]
 [GenerateServer]
 public interface IChatEntrance : IRpcContract
 {
+    int CreateServer();
 }

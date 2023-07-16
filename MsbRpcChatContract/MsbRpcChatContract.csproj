@@ -8,8 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MsbRpc" Version="0.0.0-preview.15" />
-      <PackageReference Include="MsbRpc.Generator" Version="0.0.0-preview.15" />
+      <PackageReference Include="MsbRpc.Generator" Version="0.0.0-preview.18" />
     </ItemGroup>
 
 </Project>
